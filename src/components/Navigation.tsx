@@ -56,17 +56,17 @@ const Navigation = () => {
         {
           title: 'For Carriers',
           description: 'Complete trucking automation suite',
-          href: '/solutions/carriers'
+          href: '#'
         },
         {
           title: 'For Brokers',
           description: 'Freight brokerage optimization',
-          href: '/solutions/brokers'
+          href: '#'
         },
         {
           title: 'For Shippers',
           description: 'Supply chain visibility',
-          href: '/solutions/shippers'
+          href: '#'
         }
       ]
     },
@@ -76,17 +76,17 @@ const Navigation = () => {
         {
           title: 'Documentation',
           description: 'API docs and integration guides',
-          href: '/resources/docs'
+          href: '#'
         },
         {
           title: 'Blog',
           description: 'Industry insights and updates',
-          href: '/resources/blog'
+          href: '#'
         },
         {
           title: 'Case Studies',
           description: 'Customer success stories',
-          href: '/resources/case-studies'
+          href: '#'
         },
         {
           title: 'Support',
@@ -101,24 +101,20 @@ const Navigation = () => {
         {
           title: 'About Us',
           description: 'Our mission and vision',
-          href: '/company/about'
+          href: 'https://www.facebook.com/people/Spotter-Sentinel/61577984011373/'
         },
         {
           title: 'Careers',
           description: 'Join our growing team',
-          href: '/company/careers'
+          href: '#'
         },
         {
           title: 'Contact',
           description: 'Get in touch with us',
-          href: '/company/contact'
+          href: '#'
         }
       ]
     },
-    {
-      title: 'Pricing',
-      href: '/pricing'
-    }
   ];
 
   useEffect(() => {
