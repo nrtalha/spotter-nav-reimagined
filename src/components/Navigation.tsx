@@ -26,12 +26,12 @@ const Navigation = () => {
         {
           title: 'Spotter Lens',
           description: 'Market intelligence at your fingertips',
-          href: '/products/lens'
+          href: 'https://spotter.ai/lens'
         },
         {
-          title: 'Spotter CRM', 
+          title: 'Spotter TMS', 
           description: 'Recruiting engine with visibility',
-          href: '/products/crm'
+          href: 'https://spotter.ai/tms'
         },
         {
           title: 'Driver App',
@@ -39,19 +39,14 @@ const Navigation = () => {
           href: '/products/driver-app'
         },
         {
-          title: 'Spotter TMS',
-          description: 'Visibility engine for operations',
-          href: '/products/tms'
-        },
-        {
           title: 'Spotter Sentinel',
           description: 'Safety automation and scoring',
-          href: '/products/sentinel'
+          href: 'https://spotter.ai/sentinel'
         },
         {
           title: 'Browser Extension',
           description: 'Load board automation',
-          href: '/products/extension'
+          href: 'https://extension.spotter.ai/?_gl=1*9psn5b*_gcl_au*Mzc3NDc4OTU3LjE3NTY0Njk4MjA.'
         }
       ]
     },
