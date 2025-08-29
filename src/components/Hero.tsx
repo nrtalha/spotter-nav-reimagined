@@ -35,22 +35,14 @@ const Hero = () => {
             From market intelligence to load optimization.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-in fade-in duration-700 delay-600">
+          {/* CTA Button */}
+          <div className="flex items-center justify-center mb-16 animate-in fade-in duration-700 delay-600">
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold group"
             >
               Unlock the Future of Freight
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-border hover:bg-nav-hover px-8 py-4 text-lg font-semibold group"
-            >
-              <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
-              Watch Demo
             </Button>
           </div>
 
