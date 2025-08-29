@@ -52,16 +52,23 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				nav: {
+					glass: 'hsla(var(--nav-glass))',
+					hover: 'hsla(var(--nav-hover))',
+					dropdown: 'hsla(var(--dropdown-bg))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-glass': 'var(--gradient-glass)'
+			},
+			boxShadow: {
+				'glass': 'var(--shadow-glass)',
+				'dropdown': 'var(--shadow-dropdown)'
+			},
+			transitionProperty: {
+				'nav': 'var(--transition-nav)',
+				'dropdown': 'var(--transition-dropdown)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
